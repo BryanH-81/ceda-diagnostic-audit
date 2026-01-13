@@ -1,11 +1,3 @@
-# Ensure folder exists
-
-mkdir examples\watson-perry-kane-adams-2007 -Force | Out-Null
-
-# Write README.md (overwrites if it already exists)
-
-@'
-
 # Watson, Perry, Kane & Adams (2007) — Audit in Progress
 
 **Paper:** _Inflation without Inflaton(s)_  
