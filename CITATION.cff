@@ -1,0 +1,9 @@
+﻿cff-version: 1.2.0
+title: "Cosmological Explanation Diagnostic Audit (CEDA)"
+message: "If you use this framework, please cite it."
+authors:
+  - family-names: Hansen
+    given-names: Bryan
+version: 0.1.0
+date-released: 2026-01-13
+license: CC-BY-4.0
