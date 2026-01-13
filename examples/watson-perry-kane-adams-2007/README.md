@@ -1,4 +1,4 @@
-# Watson, Perry, Kane & Adams (2007) — Audit in Progress
+# Watson, Perry, Kane & Adams (2007)
 
 **Paper:** _Inflation without Inflaton(s)_  
 **arXiv:** hep-th/0610054  
