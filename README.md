@@ -1,52 +1,94 @@
-\# CEDA — Cosmological Explanation Diagnostic Audit
+CEDA — Cosmological Explanation Diagnostic Audit
 
-CEDA is a \*\*diagnostic framework\*\*, not a cosmological model. It does not propose new dynamics, introduce new fields, or compete with inflation or ΛCDM. Its sole purpose is to audit early-universe proposals by enforcing conservation-honest accounting and distinguishing \*\*genuine physical mechanisms\*\* from \*\*descriptive bookkeeping\*\*.
+CEDA is a diagnostic framework, not a cosmological model. It does not propose new dynamics, introduce new fields, or compete with inflation or ΛCDM. Its sole purpose is to audit early-universe proposals by enforcing conservation-honest accounting and distinguishing genuine physical mechanisms from descriptive bookkeeping.
 
-\#\# What This Is For
+CEDA does not answer what the early universe did.
+It answers what a proposal is actually doing.
 
-Many early-universe constructions generate inflation-like behavior only after reinterpretation: horizon reweighting, entropy language, effective stress–energy insertion, or privileged coarse-graining. These moves often survive casual checks while quietly shifting explanatory burden.  
+What This Is For
 
-CEDA exists to expose that shift. It provides a standardized way to ask: \*Where does the claimed dynamics actually live?\* and \*What breaks when bookkeeping is no longer allowed to do physical work?\*
+Many early-universe constructions generate inflation-like behavior only after reinterpretation: horizon reweighting, entropy language, effective stress–energy insertion, or privileged coarse-graining. These moves often survive casual checks while quietly shifting explanatory burden.
 
-\#\# Quickstart
+CEDA exists to expose that shift.
 
-1\. Fill out a \*\*Model Card\*\*: \`templates/model-card.md\`  
+It provides a standardized way to ask:
 
-2\. Run diagnostics (start with \*\*D1\*\*, then \*\*D2\*\*): \`tests/\`  
+Where does the claimed dynamics actually live?
 
-3\. Record outcomes in a \*\*Diagnostic Report\*\*: \`templates/diagnostic-report.md\`  
+What breaks when bookkeeping is no longer allowed to do physical work?
 
-4\. Assign a verdict and archive the run under \`examples/\<paper-id\>/\`
+Which degrees of freedom are genuinely dynamical, and which are descriptive?
 
-That’s the entire workflow.
+Quickstart (Audit Workflow)
 
-\#\# Repo Map
+Fill out a Model Card
+templates/model-card.md
 
-\- \`paper/\` — canonical PDF(s) describing the framework  
+Pass the Run Validity Gate
+protocol/run-validity-gate.md
 
-\- \`tests/\` — diagnostic tests (D1–D4)  
+Run diagnostics (in order):
+tests/D1-horizon-reconfiguration-null.md
+tests/D2-coarse-graining-stability.md
+tests/D3-exchange-term-provenance.md
+tests/D4-mechanism-audit.md
 
-\- \`templates/\` — required model card and report formats  
+Record outcomes in a Diagnostic Report
+templates/diagnostic-report.md
 
-\- \`protocol/\` — validity gate, verdict rules, no-rescue rule  
+Archive the completed run under:
+audits/CEDA-XXX-<paper-or-class>/
 
-\- \`examples/\` — completed audit runs
+That is the entire workflow. No interpretation after verdict.
 
+Repository Map
 
-Start with \`templates/\`, then \`tests/D1-horizon-reconfiguration-null.md\`.
+audits/ — completed audit runs (paper-level and class-level)
 
-\#\# Status and Limitations
+framework/ — CEDA principles, assumptions, glossary
 
-\*\*Status:\*\* External review / test-ground phase.  
+protocol/ — run validity gate, verdict rules, no-rescue rule
 
-\*\*Limitations:\*\*  
+tests/ — diagnostic tests (D1–D4)
 
-\- Not a replacement for inflation  
+templates/ — required Model Card and Diagnostic Report formats
 
-\- Not an observational framework  
+paper/ — canonical PDF(s) describing the framework
 
-\- Not a mechanism generator
+sources/ — source papers audited (PDFs)
 
+Start with templates/, then protocol/run-validity-gate.md, then tests/D1-horizon-reconfiguration-null.md.
 
-CEDA makes only one claim: if a proposal relies on hidden structure, retrospective reinterpretation, or privileged description, the audit will surface it. What you do with that result is up to you.
+What CEDA Is Not
 
+Not a replacement for inflation
+
+Not an alternative cosmological model
+
+Not an observational framework
+
+Not a mechanism generator
+
+CEDA does not judge whether inflation is correct.
+It clarifies why inflationary models require real dynamics to work.
+
+Status and Scope
+
+Status: External review / diagnostic test-ground
+
+Scope:
+CEDA audits inflation-adjacent early-universe proposals for:
+
+degree-of-freedom discipline
+
+conservation and exchange accounting
+
+coarse-graining stability
+
+mechanism vs reinterpretation clarity
+
+Core Claim (and only claim)
+
+If a proposal relies on hidden structure, retrospective reinterpretation, or privileged description to generate physical behavior, the audit will surface it.
+
+What you do with that result is up to you.
