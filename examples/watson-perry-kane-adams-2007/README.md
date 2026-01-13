@@ -43,8 +43,13 @@ from the PDF.
   by the authors prior to diagnostics.
 
 - `diagnostic-report.md`  
-  Records preliminary outcomes and identifies which diagnostics are decisive once
-  the explicit transition dynamics are specified.
+  Records the full CEDA diagnostic evaluation, including D1–D4 outcomes and the
+  final verdict.
+
+- `CEDA-Audit-001.md`  
+  Authoritative audit log for this proposal, summarizing the diagnostic findings,
+  classification, and rationale. This file is the canonical record for
+  **CEDA-Audit-001**.
 
 ---
 
@@ -57,10 +62,3 @@ from the PDF.
 
 ---
 
-## Next Steps
-
-1. Extract the exact equations governing vacuum-energy transitions and radiation production
-2. Run **D3 (Exchange-Term Provenance)** at equation level
-3. Evaluate **D2 (Coarse-Graining Stability)** once scales are identified
-4. Run **D4 (Mechanism Audit)** if equivalence to known inflationary dynamics is suspected
-   '@ | Set-Content -Encoding UTF8 examples\watson-perry-kane-adams-2007\README.md
