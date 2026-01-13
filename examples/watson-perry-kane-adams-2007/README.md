@@ -62,3 +62,22 @@ from the PDF.
 
 ---
 
+## CEDA Verdict (Preliminary)
+
+**Verdict:** Exchange-Term Injection (D3) — Inflation in Disguise
+
+Although marketed as “inflation without inflaton(s),” the model introduces an explicit
+vacuum → radiation conversion governed by a decay rate Γ. This exchange term is not
+derived from horizon reconfiguration, accessibility constraints, or coarse-graining
+instability, but is instead specified phenomenologically to control the duration of
+accelerated expansion, exit from inflation, reheating temperature, and perturbation
+properties.
+
+Under CEDA, this constitutes a **D3 failure**: a non-derivable exchange term inserted
+to close the dynamical system. The decay rate Γ plays the functional role of an inflaton
+potential slope under reparameterization, triggering a secondary **F-05 (inflation-in-
+disguise)** flag.
+
+The proposal is conservation-honest and does not rely on horizon bookkeeping or entropy
+as causal agents. However, its inflationary behavior depends on hidden dynamical structure
+rather than descriptive reclassification.
