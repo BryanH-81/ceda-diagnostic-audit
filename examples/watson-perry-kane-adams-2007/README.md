@@ -50,44 +50,17 @@ from the PDF.
 
 ## Key Questions Driving the Audit
 
-The audit focuses on the following non-negotiable questions:
-
-1. **Where does negative pressure physically live?**  
-   Is it sourced by a genuine dynamical structure or encoded via staged vacuum energy
-   redefinition?
-
-2. **How is vacuum energy converted to radiation?**  
-   Is the exchange term derived from explicit dynamics, or inserted phenomenologically
-   to close the equations?
-
-3. **Is the mechanism distinct from known inflationary constructions?**  
-   In particular, does the cascade reduce to chain or false-vacuum inflation under
-   reparameterization?
-
+1. **Where does negative pressure physically live?**
+2. **How is vacuum energy converted to radiation?** (derived vs inserted)
+3. **Does the cascade reduce to known inflationary constructions** under reparameterization?
 4. **Are predictions stable under admissible coarse-graining?**
-
----
-
-## What This Example Is (and Is Not)
-
-- ✔ A serious audit of a nontrivial proposal
-- ✔ A test of conservation-honest exchange accounting
-- ✔ A boundary case for “inflation without inflaton” claims
-
-- ✘ Not a refutation
-- ✘ Not a horizon-bookkeeping test case
-- ✘ Not an argument against inflation as a paradigm
 
 ---
 
 ## Next Steps
 
-To complete the audit:
-
 1. Extract the exact equations governing vacuum-energy transitions and radiation production
 2. Run **D3 (Exchange-Term Provenance)** at equation level
 3. Evaluate **D2 (Coarse-Graining Stability)** once scales are identified
 4. Run **D4 (Mechanism Audit)** if equivalence to known inflationary dynamics is suspected
-
-Results will be appended directly to `diagnostic-report.md`.
-'@ | Set-Content -Encoding UTF8 examples\watson-perry-kane-adams-2007\README.md
+   '@ | Set-Content -Encoding UTF8 examples\watson-perry-kane-adams-2007\README.md
