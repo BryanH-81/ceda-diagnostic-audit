@@ -1,8 +1,6 @@
 # CEDA Audits
 
-This folder contains canonical, citable audit packages.
+Canonical audit packages live here.
 
-## Index
-
-- **CED-009** — Buchert (2000), averaging and backreaction
+- **CED-009** — Buchert (2000): averaging / backreaction
   - audits/CED-009/
