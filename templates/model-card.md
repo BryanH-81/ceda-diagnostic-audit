@@ -1,116 +1,53 @@
-\# CEDA Model Card    
-\*\*Paper:\*\* Watson, Perry, Kane & Adams (2007)    
-\*\*Title:\*\* \*Inflation without Inflaton(s)\*    
-\*\*arXiv:\*\* hep-th/0610054    
-\*\*Journal:\*\* JCAP 0711:017 (2007)
+﻿# Model Card (CEDA)
 
-\---
+## 0. Paper / Proposal ID
 
-\#\# 1\. Proposal Summary (As Claimed)
+- Title:
+- Authors:
+- Link:
 
-The proposal aims to produce an inflationary phase and successful reheating  
-\*without introducing a fundamental scalar inflaton field\*. Instead, accelerated  
-expansion arises from a sequence of vacuum-energy–dominated phases, during which  
-vacuum energy is converted into thermal radiation via a series of transitions  
-(“cascading universe”).
+## 1. Claimed Mechanism (1–3 sentences)
 
-In the simplest limit, the model reproduces observables similar to slow-roll  
-inflation.
+## 2. Degrees of Freedom (DOF)
 
-\---
+- Explicit DOF:
+- Effective/collective DOF:
+- What is _not_ allowed to vary:
 
-\#\# 2\. Declared Degrees of Freedom
+## 3. Partition Definition
 
-\#\#\# Dynamical  
-\- FRW spacetime metric (General Relativity)  
-\- Vacuum energy component \\( \\rho\_\\Lambda \\)  
-\- Radiation component \\( \\rho\_r \\)
+- System:
+- Environment:
+- Boundary definition:
 
-\#\#\# Absent by construction  
-\- No fundamental scalar inflaton field  
-\- No modified gravity sector
+## 4. Conservation Accounting
 
-\---
+- Stress–energy used:
+- Any effective terms:
+- Where conservation is enforced:
 
-\#\# 3\. System / Environment Partition
+## 5. Horizon Use (if any)
 
-\- \*\*System:\*\* Homogeneous, isotropic FRW universe with two fluid components  
-\- \*\*Environment:\*\* None specified  
-\- \*\*Horizon role:\*\* Kinematic only; no horizon-mediated dynamics are invoked
+- Horizon definition:
+- Evolution:
+- What depends on it:
 
-The model does not introduce an open-system partition or horizon-based exchange.
+## 6. Coarse-Graining Prescription
 
-\---
+- Smoothing scale:
+- Justification:
+- Admissible variations to test:
 
-\#\# 4\. Baseline Conservation Structure (Uncoupled)
+## 7. Where Negative Pressure Lives
 
-The paper begins with standard conservation:
+- Equation(s) and location in paper:
+- Physical source (DOF/action/constraint):
 
-\\\[  
-\\nabla\_\\mu T^{\\mu\\nu} \= 0  
-\\\]
+## 8. Diagnostics To Run
 
-For the uncoupled two-fluid system:
+- D1:
+- D2:
+- D3:
+- D4:
 
-\\\[  
-\\dot{\\rho}\_\\Lambda \= 0, \\quad  
-\\dot{\\rho}\_r \= \-4H\\rho\_r  
-\\\]
-
-Acceleration occurs when \\( \\rho\_r \\ll \\rho\_\\Lambda \\), yielding a near–de Sitter  
-background.
-
-This uncoupled system serves as the pre-transition baseline.
-
-\---
-
-\#\# 5\. Introduced Exchange Mechanism
-
-To implement the “cascading” behavior, the model introduces an explicit  
-vacuum → radiation conversion governed by a decay rate \\( \\Gamma \\):
-
-\\\[  
-\\dot{\\rho}\_\\Lambda \= \-\\Gamma \\rho\_\\Lambda  
-\\\]  
-\\\[  
-\\dot{\\rho}\_r \= \-4H\\rho\_r \+ \\Gamma \\rho\_\\Lambda  
-\\\]
-
-This exchange term controls:  
-\- duration of accelerated expansion  
-\- exit from inflation  
-\- reheating temperature  
-\- perturbation evolution
-
-The decay rate \\( \\Gamma \\) is specified phenomenologically.
-
-\---
-
-\#\# 6\. Location of Accelerated Expansion
-
-Accelerated expansion arises from epochs in which:  
-\\\[  
-\\rho\_\\Lambda \\gg \\rho\_r  
-\\\]  
-with the persistence of this regime determined by the magnitude of \\( \\Gamma \\).
-
-Negative pressure is carried explicitly by the vacuum energy component.
-
-\---
-
-\#\# 7\. Coarse-Graining and Scale Dependence
-
-No coarse-graining instability or scale-dependent emergence mechanism is claimed.  
-Predictions depend explicitly on the decay rate parameter rather than on  
-coarse-grained horizon structure.
-
-\---
-
-\#\# 8\. Claims Relevant to Diagnostics
-
-\- Inflation achieved without scalar fields  
-\- Reheating achieved via vacuum decay  
-\- Perturbation spectra comparable to slow-roll inflation in simple limits
-
-These claims hinge on the exchange term defined above.
-
+## 9. Notes / Risks

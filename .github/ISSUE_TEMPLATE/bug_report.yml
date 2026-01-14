@@ -1,0 +1,17 @@
+﻿name: Bug report
+description: Report a problem in docs/templates/tests
+title: "[BUG] <short description>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where is it? (file path + section)
+    validations:
+      required: true
