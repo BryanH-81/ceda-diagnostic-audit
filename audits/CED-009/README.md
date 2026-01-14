@@ -11,6 +11,5 @@ Audit Status:
 Finalized (promoted from legacy execution artifacts)
 
 Notes:
-This audit was originally executed prior to formal Git-based audit standardization.
-Legacy artifacts are preserved under _local/legacy-tests.
-This folder represents the canonical, citable version of the audit.
+This audit was originally stored under _local/legacy-tests.
+This folder is the canonical, citable audit package.
