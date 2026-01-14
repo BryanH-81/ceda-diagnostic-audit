@@ -1,5 +1,6 @@
 # CEDA Documentation
 
 - **Worked examples:** docs/worked-examples/
-- **Source PDFs:** docs/sources/
-- **Legacy notes:** docs/legacy/
+- **Sources (PDFs):** docs/sources/
+- **Meta / logs / indexes:** docs/meta/
+- **Legacy:** docs/legacy/
