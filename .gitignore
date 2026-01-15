@@ -1,0 +1,11 @@
+﻿# secrets
+*.env
+*.key
+*.pem
+*password*
+*oauth*
+*token*
+
+# windows junk
+*.lnk
+desktop.ini
