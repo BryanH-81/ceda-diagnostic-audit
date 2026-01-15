@@ -1,0 +1,40 @@
+﻿name: Audit Request
+description: Request a CEDA audit of a paper/proposal
+title: "[AUDIT] <paper short name>"
+labels: ["audit-request"]
+body:
+  - type: input
+    id: paper_title
+    attributes:
+      label: Paper title
+      placeholder: "Title"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to paper (arXiv/journal)
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: claimed_mechanism
+    attributes:
+      label: Claimed mechanism (1–3 sentences)
+    validations:
+      required: true
+  - type: textarea
+    id: negative_pressure
+    attributes:
+      label: Where does negative pressure live? (eq/section)
+    validations:
+      required: false
+  - type: checkboxes
+    id: tests
+    attributes:
+      label: Requested diagnostics
+      options:
+        - label: D1
+        - label: D2
+        - label: D3
+        - label: D4

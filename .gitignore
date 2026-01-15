@@ -1,11 +1,39 @@
-﻿# secrets
+# --- SECURITY: never commit secrets ---
 *.env
+*.env.*
 *.key
 *.pem
-*password*
-*oauth*
+*secret*
 *token*
+*oauth*
+*OAuth*
+*password*
+*Password*
+*pw*
+*PW*
 
-# windows junk
-*.lnk
+# --- OS / editor junk ---
 desktop.ini
+Thumbs.db
+*.lnk
+.DS_Store
+
+# --- Node / Python / build artifacts ---
+node_modules/
+dist/
+build/
+.out/
+.next/
+__pycache__/
+*.log
+
+# --- Optional: PDFs can be huge; comment out if you want them tracked ---
+# *.pdf
+
+# local backup / nested repo
+_git/
+
+
+# local backup / nested repo
+_git/
+
